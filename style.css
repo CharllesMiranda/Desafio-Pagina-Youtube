@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcfcfc;
+}
+
+.header-logo {
+    margin: 16px 24px;
+}
+
+.header-search {
+    margin: 8px 0;
+}
+
+.header-actions{
+    display: flex;
+    margin: 11px 24px;
+    width: 130px;
+    height: 38px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-video, 
+.icon-bell {
+    width: 24px;
+    height: 24px;
+} 
+
+
+.icon-user {
+    width: 38px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+main {
+    width: 952px;
+    height: 755px;
+    margin: 84px 0 0 75px;
+}
+
+#titulo-video {
+    width: 871px;
+    height: 23px;
+    margin: 16px 81px 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.channel-info-and-actions {
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 42px;
+}
+
+button {
+    background-color: #CC0000;
+    color: #FFFFFF;
+    width: 159px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.preview {
+    margin: 16px 0;
+    width: 391px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.description {
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+aside {
+    display: flex;
+    align-content: flex-end;
+    flex-flow: row;
+    margin-top: 84px;
+    gap: 16px;
+}
+
+aside img {
+    width: 160px;
+    height: 90px;
+}
+
+.video-suggestion,
+.information-video-suggestion {
+    display: flex;
+    flex-flow: column;
+    justify-content: start; 
+    width: 160px;
+    height: 958px;
+    gap: 25px;
+}
+
+.information-video-suggestion h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.information-video-suggestion p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    width: 160px;
+}
+
+.container-information {
+    min-width: 196px;
+    min-height: 89px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    border-top: solid 1px #cdcdcd;
+    width: 100%;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.footer p{
+    margin-left: 15px;
+}
